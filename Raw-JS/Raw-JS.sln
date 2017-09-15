@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Raw-JS", ".", "{3AC44140-3E
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64958"
+		SlnRelativePath = "..\Raw-JS\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
