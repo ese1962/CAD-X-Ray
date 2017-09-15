@@ -1,0 +1,47 @@
+﻿#imgFront {
+    margin: 0;
+    padding: 0;
+}
+
+#imgBack {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    width: auto;
+    height: auto;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+}
+
+.col-sm-8 {
+    width: 61% !important;
+}
+/* responcive size of back image*/
+@media (min-width: 576px) {
+    #imgBack {
+        width: 78.5%;
+        height: 83.5%;
+    }
+}
+
+@media (min-width: 768px) {
+    #imgBack {
+        width: 82.5%;
+        height: 82.5%;
+    }
+}
+
+@media (min-width: 992px) {
+    #imgBack {
+        width: 86%;
+        height: 86%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #imgBack {
+        width: auto;
+        height: auto;
+    }
+}
